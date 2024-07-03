@@ -1,4 +1,4 @@
-<!-- src/views/releasenote/FF14.vue -->
+<!-- src/views/releasenote/Maplestory.vue -->
 <template>
   <div>
     <CTable striped :columns="column" :items="jsonData" />
@@ -20,7 +20,7 @@ export default {
         // 레포지토리 소유자와 이름, 파일 경로를 설정합니다.
         const owner = 'skson0x6ab';
         const repo = 'DataRepository';
-        const filePath = 'FF14.json';
+        const filePath = 'Maplestory.json';
 
         // GitHub API를 통해 파일의 내용을 가져옵니다.
         const response = await githubApi.get(
