@@ -267,14 +267,14 @@ const routes = [
         component: () => import('@/views/widgets/Widgets.vue'),
       },
       {
-        path: '/releasenote/NaverWorks',
-        name: 'NaverWorks',
-        component: () => import('@/views/releasenote/NaverWorks.vue'),
-      },
-      {
         path: '/releasenote/FF14',
         name: 'FF14',
         component: () => import('@/views/releasenote/FF14.vue'),
+      },
+      {
+         path: '/releasenote/MapleStory',
+         name: 'MapleStory',
+         component: () => import('@/views/releasenote/Maplestory.vue'),
       },
     ],
   },

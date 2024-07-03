@@ -15,16 +15,16 @@ export default [
   },
   {
     component: 'CNavItem',
-    name: 'NaverWorks',
-    to: '/releasenote/NaverWorks',
+    name: 'FF14',
+    to: '/releasenote/FF14',
     icon: 'cil-list',
   },
-    {
-      component: 'CNavItem',
-      name: 'FF14',
-      to: '/releasenote/FF14',
-      icon: 'cil-list',
-    },
+  {
+    component: 'CNavItem',
+    name: 'Maplestory',
+    to: '/releasenote/Maplestory',
+    icon: 'cil-list',
+  },
   {
     component: 'CNavTitle',
     name: 'Theme',
