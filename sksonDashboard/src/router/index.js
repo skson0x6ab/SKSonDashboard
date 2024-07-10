@@ -267,12 +267,22 @@ const routes = [
         component: () => import('@/views/widgets/Widgets.vue'),
       },
       {
+        path: '/releasenote/Genshin',
+        name: 'Genshin',
+        component: () => import('@/views/releasenote/Genshin.vue'),
+      },
+      {
+        path: '/releasenote/StarRail',
+        name: 'StarRail',
+        component: () => import('@/views/releasenote/StarRail.vue'),
+      },
+      {
         path: '/releasenote/FF14',
         name: 'FF14',
         component: () => import('@/views/releasenote/FF14.vue'),
       },
       {
-         path: '/releasenote/MapleStory',
+         path: '/releasenote/Maplestory',
          name: 'MapleStory',
          component: () => import('@/views/releasenote/Maplestory.vue'),
       },

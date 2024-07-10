@@ -1,7 +1,7 @@
 <!-- src/views/releasenote/Maplestory.vue -->
 <template>
   <div>
-    <CTable striped :columns="column" :items="jsonData" />
+    <CTable small bordered striped :columns="column" :items="jsonData" />
   </div>
 </template>
 

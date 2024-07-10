@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2922b04-ce73-42a4-b498-ad9e870611f3" name="변경" comment="readme 추가">
-      <change afterPath="$PROJECT_DIR$/sksonDashboard/src/services/githubApi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sksonDashboard/src/views/releasenote/Maplestory.vue" afterDir="false" />
+    <list default="true" id="d2922b04-ce73-42a4-b498-ad9e870611f3" name="변경" comment="github API get 기능 추가">
+      <change afterPath="$PROJECT_DIR$/sksonDashboard/src/assets/images/avatars/sk_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sksonDashboard/src/views/releasenote/Genshin.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sksonDashboard/src/views/releasenote/StarRail.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sksonDashboard/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sksonDashboard/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sksonDashboard/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/sksonDashboard/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sksonDashboard/src/_nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/sksonDashboard/src/_nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sksonDashboard/src/components/AppHeaderDropdownAccnt.vue" beforeDir="false" afterPath="$PROJECT_DIR$/sksonDashboard/src/components/AppHeaderDropdownAccnt.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sksonDashboard/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/sksonDashboard/src/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sksonDashboard/src/views/releasenote/FF14.vue" beforeDir="false" afterPath="$PROJECT_DIR$/sksonDashboard/src/views/releasenote/FF14.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sksonDashboard/src/views/releasenote/NaverWorks.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sksonDashboard/src/views/releasenote/ff14.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sksonDashboard/src/views/releasenote/naverworks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sksonDashboard/src/views/releasenote/Maplestory.vue" beforeDir="false" afterPath="$PROJECT_DIR$/sksonDashboard/src/views/releasenote/Maplestory.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -246,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719462340338</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="github API get 기능 추가">
+      <option name="closed" value="true" />
+      <created>1719981516015</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719981516015</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,6 +307,7 @@
     <MESSAGE value="화면 두개 추가" />
     <MESSAGE value="프로젝트 이름 변경" />
     <MESSAGE value="readme 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme 추가" />
+    <MESSAGE value="github API get 기능 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="github API get 기능 추가" />
   </component>
 </project>
