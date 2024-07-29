@@ -286,6 +286,11 @@ const routes = [
          name: 'MapleStory',
          component: () => import('@/views/releasenote/Maplestory.vue'),
       },
+      {
+         path: '/stock/Stock',
+         name: 'Stock',
+         component: () => import('@/views/stock/Stock.vue'),
+      },
     ],
   },
   {

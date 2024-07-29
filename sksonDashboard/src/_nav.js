@@ -34,6 +34,16 @@ export default [{
     },
     {
         component: 'CNavTitle',
+        name: 'STOCK',
+    },
+    {
+        component: 'CNavItem',
+        name: 'Stock',
+        to: '/stock/Stock',
+        icon: 'cil-list',
+    },
+    {
+        component: 'CNavTitle',
         name: 'API',
     },
     {
