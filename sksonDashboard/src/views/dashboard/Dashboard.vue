@@ -10,7 +10,7 @@ import WidgetsStatsA from './../widgets/WidgetsStatsTypeA.vue'
 import WidgetsStatsD from './../widgets/WidgetsStatsTypeD.vue'
 
 const progressGroupExample1 = [
-  { title: 'Monday', value1: 34, value2: 78 },
+  { title: 'Monday', value1: 10, value2: 78 },
   { title: 'Tuesday', value1: 56, value2: 94 },
   { title: 'Wednesday', value1: 12, value2: 67 },
   { title: 'Thursday', value1: 43, value2: 91 },

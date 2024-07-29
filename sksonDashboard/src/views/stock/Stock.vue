@@ -1,7 +1,8 @@
-<!-- src/views/releasenote/FF14.vue -->
+<!-- src/views/stock/Stock.vue -->
 <template>
   <div>
-    <CTable bordered striped :columns="column" :items="jsonData" />
+    <CTable bordered striped :columns="column" :items="jsonData">
+    </CTable>
   </div>
 </template>
 
@@ -20,7 +21,7 @@ export default {
         // 레포지토리 소유자와 이름, 파일 경로를 설정합니다.
         const owner = 'skson0x6ab';
         const repo = 'DataRepository';
-        const filePath = 'Genshin.json';
+        const filePath = 'PublicOfferingStockSchedule.json';
 
         // GitHub API를 통해 파일의 내용을 가져옵니다.
         const response = await githubApi.get(

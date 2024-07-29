@@ -1,7 +1,7 @@
 <!-- src/views/releasenote/FF14.vue -->
 <template>
   <div>
-    <CTable small bordered striped :columns="column" :items="jsonData" />
+    <CTable bordered striped :columns="column" :items="jsonData" />
   </div>
 </template>
 
